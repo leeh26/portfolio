@@ -194,13 +194,17 @@ h1 {
     padding: 40px;
 }
 .broll {
-    height: 50vh;
+    height: 80vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .broll h1 {
     font-size: 80px;
+}
+.broll video {
+    width: 300px;
+    border-radius: 30px;
 }
 .footer {
     display: flex;
